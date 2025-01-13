@@ -102,7 +102,7 @@ def menu():
                 print(f"O número {numero} NÃO pertence à sequência de Fibonacci.")
 
         elif opcao == "3":
-            menor, maior, acima_media = analisar_faturamento('dados (1).json', 'dados (2) (1).xml')
+            menor, maior, acima_media = analisar_faturamento('dados.json', 'dadosxml.xml')
             if menor is not None:
                 print("\nFaturamento diário:")
                 print(f"  Menor valor: {menor}")
